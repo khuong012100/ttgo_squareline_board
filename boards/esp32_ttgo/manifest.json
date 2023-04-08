@@ -1,0 +1,18 @@
+{
+    "name":"TTGO T-Display 1.14 Inch ST7789V",
+    "version":"1.0.0",
+    "mcu":"ESP32",
+
+    "screen_width":"135",
+    "screen_height":"240",
+    "screen_color_swap":true,
+
+    "short_description":"T-Display made by TTGO.",
+    "long_description":"Example of the custom BSP and custom LCD made by Espressif for various Demos.",
+
+    "placeholders":
+    {
+        "__ESP_BOARD_INCLUDE__": "bsp/esp32_ttgo.h",
+        "__ESP_BOARD_I2C_INIT__": ""
+    }
+}

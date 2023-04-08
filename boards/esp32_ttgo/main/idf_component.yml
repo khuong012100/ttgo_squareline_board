@@ -1,0 +1,7 @@
+description: TTGO T-Display DEMO example
+dependencies:
+  idf: ">=5"
+  esp32_ttgo:
+    version: "1.0"
+    override_path: "../components/esp32_ttgo"
+

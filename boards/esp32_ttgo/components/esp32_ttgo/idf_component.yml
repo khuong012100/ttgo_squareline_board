@@ -1,0 +1,11 @@
+version: "1.0.0"
+description: Board Support Package for ESP-TTGO
+
+targets:
+    - esp32
+
+dependencies:
+  idf: ">=5.0" # esp_lcd component was added in v5.0
+
+  esp_lvgl_port:
+    version: ^1
